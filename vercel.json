@@ -1,7 +1,17 @@
 {
-  "buildCommand": null,
-  "devCommand": null,
-  "installCommand": null,
-  "framework": null,
-  "outputDirectory": "."
+  "headers": [
+    {
+      "source": "/(.*).jsx",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
 }
