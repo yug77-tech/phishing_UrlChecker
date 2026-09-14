@@ -17,6 +17,9 @@
         document.documentElement.setAttribute("data-theme", t);
       } catch (e) {}
     })();
+    
+    // Configure API base URL for production
+    window.__API_BASE__ = window.location.origin;
   </script>
 </head>
 <body>
